@@ -4,7 +4,7 @@ import { egyptData } from "@/data/egypt-regions";
 export { egyptData };
 
 export const investorFormSchema = z.object({
-    fullName: z.string().min(3, "الاسم مطلوب"),
+    fullName: z.string().min(3, "الاسم بالكامل"),
     phone: z.string().regex(/^01[0125]\d{8}$/, "رقم الهاتف غير صحيح"),
     governorate: z.string().min(1, "المحافظة مطلوبة"),
     city: z.string().min(1, "المركز مطلوب"),

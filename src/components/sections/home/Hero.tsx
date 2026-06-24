@@ -165,9 +165,9 @@ import ContactButton from "@/components/buttons/ContactButton";
 import Logo from "@/components/Logos/Logo";
 
 const investmentSectors = [
-    "تطوير عقاري",
-    "استثمار زراعي",
-    "استشارات تنفيذية",
+    "التطوير العقاري",
+    "الاستثمار الزراعي",
+    "الاستشارات التنفيذية",
 ];
 
 export default function Hero() {
@@ -198,8 +198,8 @@ export default function Hero() {
                                 size={14}
                                 className="text-secondary-gold"
                             />
-                            <span className="text-xs font-medium text-secondary-gold/90 tracking-wide">
-                                قريطنة جروب للاستثمار والتنمية المستدامة
+                            <span className="text-xs font-medium  tracking-wide">
+                                شريكك الاستراتيجي من الفكرة إلي الريادة
                             </span>
                         </div>
 
@@ -210,11 +210,11 @@ export default function Hero() {
                             </span>
 
                             <span className="block text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-medium text-white/90 mt-3">
-                                للوجهات والاستثمارات الذكية
+                                للمشروعات والاستثمارات الذكية المستدامة
                             </span>
 
                             <span className="block text-xl sm:text-2xl md:text-3xl lg:text-4xl font-light text-white/80 mt-3">
-                                قطاع (
+                                قطاعتنا المميزة: (
                                 <span className="relative inline-flex items-center overflow-hidden align-middle">
                                     <AnimatePresence mode="wait">
                                         <motion.span
@@ -250,10 +250,7 @@ export default function Hero() {
                         </h1>
 
                         <p className="text-sm sm:text-base lg:text-lg text-slate-300/80 font-light max-w-3xl leading-7 sm:leading-8 mb-10 mx-auto lg:mx-0 lg:mr-0">
-                            رؤية استثمارية مستدامة ممتدة عبر قطاعات حيوية.
-                            ندمج رأس المال الذكي مع التخطيط الهندسي الصارم
-                            لتمكين مشروعات وطنية تُحدث أثراً حقيقياً وتدوم
-                            للأجيال القادمة.
+                            خبرة في هندسة المشروعات، الفرص الاستثمارية، وتحويل الأفكار إلى واقع مؤسسي مستدام
                         </p>
 
                         <div className="flex justify-center lg:justify-start">

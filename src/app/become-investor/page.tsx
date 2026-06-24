@@ -93,7 +93,7 @@ export default function BecomeInvestorPage() {
                     <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-secondary-gold/20 bg-secondary-gold/10 backdrop-blur-md">
                         <Award size={14} className="text-secondary-gold" />
                         <span className="text-xs font-light text-secondary-gold">
-                            بوابة المستثمر والشريك الإستراتيجي
+                            بوابة الإنضمام لعالم الاستثمار
                         </span>
                     </div>
 

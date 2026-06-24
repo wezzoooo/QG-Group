@@ -37,17 +37,22 @@ export default function CorporateCoreSection() {
                 className="lg:col-span-5 bg-gradient-to-b from-white/[0.03] to-transparent backdrop-blur-md border border-white/[0.04] rounded-3xl p-6 sm:p-8 shadow-2xl relative group border-b-secondary-gold/10"
             >
                 <div className="absolute top-0 right-10 transform -translate-y-1/2 bg-secondary-gold text-neutral-900 font-bold text-[10px] sm:text-xs px-4 py-1 rounded-full shadow-lg">
-                    منصة الفكر والتنفيذ
+                    كلمة المؤسس
                 </div>
                 <div className="space-y-6 text-right relative">
                     <Quote size={32} className="text-secondary-gold/5 absolute -top-4 -right-4" />
-                    <p className="text-white/80 italic text-sm sm:text-base leading-7 pt-4">
-                        "النمو المستدام ليس وليد الصدفة، بل هو نتيجة هندسة إدارية دقيقة تجمع بين جرأة الفكرة وقوة النظام."
+                    <p className="text-white/80 text-justify text-sm sm:text-base leading-7 pt-4">
+                        "بخبرة تمتد لأكثر من عقدين في قيادة المشروعات الاستراتيجية، أؤمن أن الاستثمار الناجح هو مزيج من *الرؤية العلمية الصارمة، والخبرة الميدانية الواعية*.<br/> بصفتي رئيساً لمجلس إدارة 'قريطنة جروب'، أسعى دائماً لدمج المعرفة الأكاديمية العميقة بالتطبيق العملي المباشر، لنقدم نموذجاً استثمارياً يجمع بين دقة الأداء وذكاء الاستدامة.
+نحن ننطلق في كافة أعمالنا من *منهجية إدارية وخطط استراتيجية دقيقة، تعتمد على تحقيق أعلى درجات الكفاءة في إدارة الموارد، وأقصى درجات الفاعلية في الوصول إلى النتائج*.<br/> هدفي الدائم هو نقل المؤسسات من مجرد أفكار إلى كيانات قيادية في السوق، عبر هيكلة إدارية تعظم العوائد وتضمن استدامة النجاح، لأكون بذلك شريكاً في بناء إرث مؤسسي يواكب تحديات المستقبل."
                     </p>
                     <div className="pt-4 border-t border-white/[0.05] flex items-center justify-between">
                         <div>
-                            <h4 className="text-white font-bold text-sm sm:text-base">د. محمد عبد الرحمن قريطنة</h4>
-                            <p className="text-[11px] text-secondary-gold/80 font-light mt-0.5">المؤسس والرئيس التنفيذي</p>
+                            <h4 className="text-white text-center font-bold text-sm sm:text-base">
+                            <span className="text-secondary-gold">دكتور</span><br/>
+                            محمد عبدالرحمن قريطنة
+
+                            </h4>
+                            <p className="text-[11px] text-center text-secondary-gold font-light mt-0.5">المؤسس و رئيس مجلس الادارة</p>
                         </div>
                         <div className="relative overflow-hidden">
                             <LogoIcon className="w-15" />
